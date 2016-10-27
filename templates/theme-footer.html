@@ -3,10 +3,14 @@
   from django.core.urlresolvers import reverse
   from django.utils.translation import ugettext as _
   from edxmako.shortcuts import marketing_link
+  from django.utils.timezone import now
 %>
 <div class="wrapper-footer">
   <footer id="footer-openedx">
     <div class="colophon">
+      <div class="copy-colophon">
+        <span class="license-text"> &copy; ${now().strftime('%Y')} ${_('Stanford Medicine')}</span>
+      </div>
       <nav class="nav-colophon"></nav>
     </div>
     <div class="references">
