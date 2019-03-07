@@ -1,3 +1,10 @@
+DEPRECATED
+==========
+This is no longer supported.
+It should not be used.
+It was never converted to Comprehensive Theming.
+
+
 Warning
 ========
 
